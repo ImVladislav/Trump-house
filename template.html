@@ -1,0 +1,301 @@
+<template id="chat-template-2">
+  <div class="chat-container-2">
+    <div id="chat-container-2" style="padding: 10px; display: flex; flex-direction: column;">
+      <div id="chat-history-2" style="color: #fff; flex: 1; overflow-y: auto; margin-bottom: 10px;"></div>
+      <div class="button_block-2">
+        <input type="text" id="user-input-2" placeholder="Enter your message..."
+          style="flex: 1; padding: 10px; color: #fff;">
+        <button id="send-button-2" class=".btn_send">Send</button>
+      </div>
+    </div>
+  </div>
+</template>
+                        <style>
+                
+                
+                          .button_block-2 {
+                            display: flex;
+                    flex-direction: column;
+                    /* align-content: center; */
+                    /* align-items: center; */
+                
+                
+                
+                
+                
+                          }
+                          #chat-container-2 {
+                            /* border: 1px solid #157e05; */
+                            /* border-radius: 10px; */
+                            padding: 10px;
+                            /* background-color: white; */
+                            height: 400px;
+                            display: flex;
+                            flex-direction: column;
+                          }
+                          
+                          #chat-history-2 {
+                            color: #fff;
+                            flex: 1;
+                            overflow-y: auto;
+                            margin-bottom: 10px;
+                            display: flex;
+                            flex-direction: column;
+                          }
+                      
+                          /* Стилі для скролбару */
+                          #chat-history-2::-webkit-scrollbar {
+                            width: 10px;
+                            font-family: "Comic Neue", cursive;
+                            width: 89%;
+                            /* Ширина вертикального скролбару */
+                            background-color: #f1f1f1;
+                            /* Колір фону скролбару */
+                            border-radius: 10px;
+                            /* Заокруглені краї скролбару */
+                          }
+                      
+                          /* Стиль для повзунка (thumb) */
+                          #chat-history-2::-webkit-scrollbar-thumb {
+                            background-color: #157e05;
+                            /* Колір повзунка */
+                            border-radius: 10px;
+                            /* Заокруглені краї повзунка */
+                            border: 2px solid #fff;
+                            /* Білий контур навколо повзунка */
+                            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                            /* Тінь для більшого ефекту */
+                          }
+                      
+                          /* Стиль для повзунка при наведенні */
+                      
+                      
+                          /* Стиль для фону скролбару (track) */
+                          #chat-history-2::-webkit-scrollbar-track {
+                            background: #fddc11;
+                            /* Легкий сірий фон */
+                            border-radius: 10px;
+                            /* Заокруглені краї фону */
+                          }
+                      
+                      
+                          .user-message-2 {
+                            text-align: right;
+                            margin: 5px 0;
+                            display: inline-block;
+                            background-color: #9c2222;
+                            color: white;
+                            padding: 10px;
+                            border-radius: 15px;
+                            max-width: 70%;
+                            position: relative;
+                            /* border: 1px solid #157e05; */
+                            align-self: flex-end;
+                            opacity: 0;
+                            animation: fadeIn 0.5s forwards;
+                            font-family: coconutz;
+                          }
+                      
+                          .bot-message-2 {
+                            text-align: left;
+                            margin: 5px 0;
+                            display: inline-block;
+                            background-color: #fddc11;
+                            color: black;
+                            padding: 10px;
+                            border-radius: 15px;
+                            max-width: 70%;
+                            position: relative;
+                            border: 1px solid #2a2a2a;
+                            align-self: flex-start;
+                            opacity: 0;
+                            animation: fadeIn 0.5s forwards;
+                            font-family: coconutz;
+                          }
+                      
+                          .bot-avatar-2 {
+                            display: inline-block;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            background-image: url('100x100.png');
+                            /* Замените на URL вашей аватарки */
+                            background-size: cover;
+                            vertical-align: middle;
+                          }
+                      
+                
+                
+                
+                          #user-input-2 {
+                            flex: 1;
+                            padding: 10px;
+                            border: 1px solid #157e05;
+                            border-radius: 5px;
+                            background-color: #e8f7f7;
+                            color: #2a2a2a !important;
+                            font-family: "Knewave", system-ui;
+                            width: 100%;
+                            font-family: "Comic Neue", cursive;
+                  font-weight: 800;
+                  font-style: normal;
+                          }
+                      
+                          #send-button-2 {
+                            font-family: "Comic Neue", cursive;
+                  font-weight: 800;
+                  font-style: normal;
+                            padding: 10px;
+                            border: none;
+                            border-radius: 5px;
+                            background-color: #157e05;
+                            color: #fff;
+                            cursor: pointer;
+                            font-family: "Knewave", system-ui;
+                          
+                              margin-left: 10px;
+                      /* margin-top: 0px; */
+                       
+                      margin-left: 0px;
+                      margin-top: 10px;
+                      
+                      }
+                
+                      @media screen and (min-width: 768px){
+                  .button_block-2 {
+                            display: flex;
+                    flex-direction: row;
+                    /* align-content: center; */
+                    align-items: center;
+                
+                          }
+                
+                          #send-button-2{
+                         margin-left: 10px;
+                          margin-top: 0px;
+                      }
+                }
+                
+                      /* @media screen and (max-width: 720px) {
+                      
+                      
+                      #send-button{
+                         margin-left: 0px;
+                          margin-top: 10px;
+                      }
+                      } */
+                      
+                          #send-button:hover {
+                            background-color: #157e05;
+                          }
+                      
+                          #chat-container::-webkit-scrollbar {
+                            width: 8px;
+                          }
+                      
+                          #chat-container::-webkit-scrollbar-thumb {
+                            background: #157e05;
+                            border-radius: 10px;
+                          }
+                      
+                          #chat-container::-webkit-scrollbar-track {
+                            background: #2a2a2a;
+                          }
+                      
+                          @keyframes fadeIn {
+                            from {
+                              opacity: 0;
+                            }
+                      
+                            to {
+                              opacity: 1;
+                            }
+                          }
+                        </style>
+                        <script>
+                          const chatHistory2 = JSON.parse(sessionStorage.getItem('chatHistory2')) || [];
+                        
+                          function updateChatHistory2() {
+                            const chatHistoryDiv2 = document.getElementById('chat-history-2');
+                            chatHistoryDiv2.innerHTML = chatHistory2.map(msg => msg).join('');
+                            chatHistoryDiv2.scrollTop = chatHistoryDiv2.scrollHeight;
+                          }
+                        
+                          function addMessageToChat2(message, isUser) {
+                            const messageDiv2 = document.createElement('div');
+                            messageDiv2.className = isUser ? 'user-message-2' : 'bot-message-2';
+                            if (!isUser) {
+                              messageDiv2.innerHTML = `<div class="bot-avatar"></div> <span>${message}</span>`;
+                            } else {
+                              messageDiv2.innerHTML = `<span>${message}</span>`;
+                            }
+                        
+                            chatHistory2.push(messageDiv2.outerHTML);
+                            updateChatHistory2();
+                        
+                            messageDiv2.style.opacity = 0;
+                            setTimeout(() => {
+                              messageDiv2.style.opacity = 1;
+                            }, 0);
+                          }
+                        
+                          document.getElementById('send-button-2').addEventListener('click', sendMessage2);
+                          document.getElementById('user-input-2').addEventListener('keypress', function (e) {
+                            if (e.key === 'Enter') {
+                              sendMessage2();
+                            }
+                          });
+                        
+                          async function sendMessage2() {
+                            const sendButton2 = document.getElementById('send-button-2');
+                        
+                            if (sendButton2.disabled) return;
+                        
+                            const userInput2 = document.getElementById('user-input-2').value;
+                            if (!userInput2) return;
+                        
+                            addMessageToChat2(`you: ${userInput2}`, true);
+                            sessionStorage.setItem('chatHistory2', JSON.stringify(chatHistory2));
+                            document.getElementById('user-input-2').value = '';
+                        
+                            const typingIndicator2 = document.createElement('div');
+                            typingIndicator2.className = 'bot-message-2';
+                            typingIndicator2.innerHTML = `<div class="bot-avatar"></div> <span> Moldy is typing...</span>`;
+                            chatHistory2.push(typingIndicator2.outerHTML);
+                            updateChatHistory2();
+                        
+                            sendButton2.disabled = true;
+                            const backendUrl2 = 'https://moldy-back.onrender.com/chat';
+                        
+                            const fetchPromise2 = fetch(backendUrl2, {
+                              method: 'POST',
+                              headers: {
+                                'Content-Type': 'application/json',
+                              },
+                              body: JSON.stringify({ messages: chatHistory2.slice(-10) }),
+                            });
+                        
+                            const timeoutPromise2 = new Promise((_, reject) =>
+                              setTimeout(() => reject(new Error('Server error')), 5000)
+                            );
+                        
+                            try {
+                              const response2 = await Promise.race([fetchPromise2, timeoutPromise2]);
+                              if (!response2.ok) {
+                                throw new Error(`Error: ${response2.status} ${response2.statusText}`);
+                              }
+                              const data2 = await response2.json();
+                              chatHistory2.pop();
+                              addMessageToChat2(`${data2.reply}`, false);
+                            } catch (error) {
+                              chatHistory2.pop();
+                              addMessageToChat2(`Error: ${error.message || 'request error'}`, false);
+                            } finally {
+                              updateChatHistory2();
+                              sessionStorage.setItem('chatHistory2', JSON.stringify(chatHistory2));
+                              sendButton2.disabled = false;
+                            }
+                          }
+                        
+                          updateChatHistory2();
+                        </script>
