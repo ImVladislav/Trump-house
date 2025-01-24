@@ -16,7 +16,7 @@ body {
     top: 10px;
     left: 10px;
     text-align: center;    
-    background: #FD3FDD;
+    background: #002164;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     border: 3px solid white !important;
@@ -55,7 +55,7 @@ body {
 
 .progress-bar {
     height: 30px;
-    background-color: #FD3FDD;
+    background-color: #002164;
     width: 0%;
     border-radius: 10px;
     text-align: center;
@@ -131,7 +131,7 @@ font-weight: 800;
     top: 10px;
     left: 10px;
     text-align: center;    
-    background: #FD3FDD;
+    background: #002164;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     border: 3px solid white;
@@ -150,7 +150,7 @@ font-weight: 800;
 }
 
 .back-home:hover, .back-home-mansion:hover {
-    background: #e95ed2;
+    background: #bc0b3c;
     cursor: pointer;
 }
 
@@ -179,7 +179,7 @@ font-weight: 800;
 }
 
 #presale-container h1 {
-    color: #FD3FDD;
+    color: #002164;
     font-size: 100px;
     font-weight: 400;
     line-height: 1em;
@@ -190,7 +190,7 @@ font-weight: 800;
 }
 
 #presale-container h2 {
-    color: #FD3FDD;
+    color: #002164;
     font-size: 60px;
     font-weight: 400;
     line-height: 1em;
@@ -280,21 +280,21 @@ font-weight: 800;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     min-width: 27%;
     border-radius: 25px;
-    border: 8px solid #FD3FDD;
+    border: 8px solid #002164;
     width: 48%;
 }
 
 .full-width-cont {
     width: 100%;
     border-radius: 25px;
-    border: 8px solid #FD3FDD;
+    border: 8px solid #002164;
     padding: 35px;
 }
 
 .video-container-ics {
     width: 100%;
     border-radius: 25px;
-    border: 8px solid #FD3FDD;
+    border: 8px solid #002164;
     padding: 0px;
     background-color: #333;
 }
@@ -438,7 +438,7 @@ footer {
 .countdown-item {
     margin: 5px;
     min-width: 100px;
-    background-color: #FD3FDD;
+    background-color: #002164;
     padding: 20px;
     border: 4px solid white;
     border-radius: 20px;
@@ -456,7 +456,7 @@ footer {
 }
 
 .presale-title {
-    color: #FD3FDD;
+    color: #002164;
     font-size: 3.5em;
     line-height: normal;
     font-weight: 400;
@@ -543,7 +543,7 @@ footer {
 }
 
 .pinks-mansion-txt h2 {
-    color: #FD3FDD;
+    color: #002164;
     font-size: 150px;
     font-weight: 400;
     line-height: 155px;
@@ -585,7 +585,7 @@ footer {
 
 .mansion-btn-group a, .mansion-btn-group button, .learn-more-button, .about-btn-group a, .countdown-btn-group a {
     border: 2px solid #151513;
-    background: #FD3FDD;
+    background: #002164;
     color: #fff;
     text-decoration: none;
     display: inline-flex;
@@ -605,13 +605,13 @@ footer {
 
     &:hover {
         background: white;
-        color: #FD3FDD;
+        color: #002164;
         box-shadow: 3px 3px 0px 0px #151513;
 
     }
 
     &:hover svg path {        
-        stroke: #FD3FDD;
+        stroke: #002164;
         
     }
 
@@ -639,7 +639,7 @@ footer {
 }
 
 .copy-address {
-    background: #FD3FDD;
+    background: #002164;
     min-width: 650px;
     display: inline-flex;
     justify-content: space-between;
@@ -733,7 +733,7 @@ footer {
     line-height: 58px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #FD3FDD;
+    color: #002164;
     filter: drop-shadow(3px 3px 0px #fff);
     -webkit-text-stroke: 1px #fff;
     margin-bottom: 10px;
@@ -744,7 +744,7 @@ footer {
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0.02em;
-    color: #FD3FDD;
+    color: #002164;
     display: inline-block;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
     -webkit-text-stroke: 1px white;
@@ -761,7 +761,7 @@ footer {
 .pink-token-txt-box .buy-token-btn {
     min-width: 180px;
     min-height: 64px;
-    background: #FD3FDD;
+    background: #002164;
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
@@ -778,7 +778,7 @@ footer {
 
     &:hover {
         background: white;
-        color: #FD3FDD;
+        color: #002164;
         box-shadow: 3px 3px 0px 0px #151513;
 
     }
@@ -813,7 +813,7 @@ footer {
     line-height: 58px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #FD3FDD;
+    color: #002164;
     filter: drop-shadow(3px 3px 0px #fff);
     -webkit-text-stroke: 1px #fff;
     margin-bottom: 10px;
@@ -834,7 +834,7 @@ footer {
 .tokenomics-txt-box .buy-token-btn {
     min-width: 180px;
     min-height: 64px;
-    background: #FD3FDD;
+    background: #002164;
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
@@ -852,7 +852,7 @@ footer {
 
     &:hover {
         background: white;
-        color: #FD3FDD;
+        color: #002164;
         box-shadow: 3px 3px 0px 0px #151513;
 
     }
@@ -906,7 +906,7 @@ footer {
 }
 
 .roadmap-heading-txt h2 {
-    color: #FD3FDD;
+    color: #002164;
     font-size: 101.12px;
     line-height: 120.24px;
     font-weight: 400;
@@ -936,7 +936,7 @@ footer {
 }
 
 .roadmap-tabs-btn .roadmap-tb-buttons {
-    background: #FD3FDD;
+    background: #002164;
     border: 0;
     padding: 14px 30px;
     display: inline-block;
@@ -986,12 +986,12 @@ footer {
     width: 100%;
     display: block;
     overflow-y: auto;
-    border: 4px solid #FD3FDD;
+    border: 4px solid #002164;
     backdrop-filter: blur(15px);
 }
 
 .roadmap-txt-section h2 {
-    color: #FD3FDD;
+    color: #002164;
     filter: drop-shadow(2px 2px 0px #ffff);
     -webkit-text-stroke: 0.5px #ffffff;
     font-family: Boogaloo;
@@ -1057,7 +1057,7 @@ footer {
     overflow: hidden;
     position: relative;
     transition: all 0.5s;
-    border: 4px solid #FD3FDD;
+    border: 4px solid #002164;
     border-radius: 20px;
     backdrop-filter: blur(15px);
     cursor: pointer;
@@ -1115,7 +1115,7 @@ footer {
 }
 
 .vertical-accordion .verti-iner-tabs .tab-content .tab-content-wrapper h2 {
-    color: #FD3FDD;
+    color: #002164;
     filter: drop-shadow(2px 2px 0px #ffff);
     -webkit-text-stroke: 0.5px #ffffff;
     font-family: Boogaloo;
@@ -1241,7 +1241,7 @@ footer {
 .copy-address-btn .buy-token-btn {
     min-width: 180px;
     min-height: 64px;
-    background: #FD3FDD;
+    background: #002164;
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
@@ -1259,7 +1259,7 @@ footer {
 
     &:hover {
         background: white;
-        color: #FD3FDD;
+        color: #002164;
         box-shadow: 3px 3px 0px 0px #151513;
 
     }
@@ -1288,7 +1288,7 @@ footer {
 .join-community-box {
     max-width: 730px;
     width: 100%;
-    border: 4px solid #FD3FDD;
+    border: 4px solid #002164;
     border-radius: 20px;
     background-color: rgb(0 0 0 / 70%);
     backdrop-filter: blur(15px);
@@ -1301,7 +1301,7 @@ footer {
     line-height: 58px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #FD3FDD;
+    color: #002164;
     filter: drop-shadow(3px 3px 0px #fff);
     -webkit-text-stroke: 1px #fff;
     margin-bottom: 7px;
@@ -1313,7 +1313,7 @@ footer {
     line-height: 58px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #FD3FDD;
+    color: #002164;
     filter: drop-shadow(3px 3px 0px #fff);
     -webkit-text-stroke: 1px #fff;
     margin-bottom: 10px;
@@ -1348,7 +1348,7 @@ footer {
 }
 
 .join-social-icons .social-icon-box:hover {
-    background-color: #FD3FDD;
+    background-color: #002164;
     box-shadow: 3px 3px 0px 0px #151513;
     /* transform: rotateY(180deg); */
 }
@@ -1383,7 +1383,7 @@ footer {
 .join-community-box a {
     min-width: 180px;
     min-height: 64px;
-    background: #FD3FDD;
+    background: #002164;
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
@@ -1402,7 +1402,7 @@ footer {
 
     &:hover {
         background: white;
-        color: #FD3FDD;
+        color: #002164;
         box-shadow: 3px 3px 0px 0px #151513;
 
     }
@@ -1426,7 +1426,7 @@ footer {
 }
 
 .faq-item {
-    border: 4px solid #fd3fdd;
+    border: 4px solid #002164;
     margin-top: 20px;
     border-radius: 20px;
     color: #fff;
@@ -1468,7 +1468,7 @@ footer {
 }
 
 .custom-last-slide footer {
-    background-color: #FD3FDD;
+    background-color: #002164;
     width: 100%;
 }
 
@@ -1627,7 +1627,7 @@ footer {
     height: 0px;
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
-    border-bottom: 14px solid #fd3fdd;
+    border-bottom: 14px solid #002164;
     position: absolute;
     top: -15px;
     left: 50%;
@@ -1674,7 +1674,7 @@ footer {
 
 .dot-button button.custom-button {
     border: 2px solid #151513;
-    background: #FD3FDD;
+    background: #002164;
     color: #fff;
     text-decoration: none;
     padding: unset;
@@ -1700,7 +1700,7 @@ footer {
     &:hover {
         box-shadow: 2.4px 2.4px 0px 0px #151513;
         background: white;
-        color: #FD3FDD;
+        color: #002164;
     }
 }
 
@@ -2631,7 +2631,7 @@ footer {
     }
 
     .custom-last-slide footer {
-        background-color: #FD3FDD;
+        background-color: #002164;
         width: 100%;
         padding-inline: 25px;
     }
@@ -2729,7 +2729,7 @@ footer {
 
 
     .copy-address-btn2 h2 {
-        color: #FD3FDD;
+        color: #002164;
         font-size: 60px;
         font-weight: 400;
         line-height: 1em;
@@ -2745,7 +2745,7 @@ footer {
 
 
     #presale-container h1 {
-        color: #FD3FDD;
+        color: #002164;
         font-size: 60px;
         font-weight: 400;
         line-height: 1em;
